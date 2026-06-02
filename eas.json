@@ -1,0 +1,27 @@
+{
+  "cli": {
+    "appVersionSource": "remote"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "ios": {
+        "buildConfiguration": "Debug"
+      }
+    },
+    "preview": {
+      "distribution": "internal",
+      "ios": {}
+    },
+    "production": {
+      "autoIncrement": true,
+      "ios": {}
+    }
+  },
+  "submit": {
+    "production": {
+      "ios": {}
+    }
+  }
+}
